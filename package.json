@@ -2,6 +2,7 @@
   "name": "pug-lint-config-atomtech",
   "version": "0.0.0",
   "description": "A pug config for AtomTech coding standard.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/atomtech/pug-lint-config-atomtech/issues"
   },
-  "homepage": "https://github.com/atomtech/pug-lint-config-atomtech#readme"
+  "homepage": "https://github.com/atomtech/pug-lint-config-atomtech#readme",
+  "peerDependencies": {
+    "pug-lint": "^2.3.0"
+  }
 }
